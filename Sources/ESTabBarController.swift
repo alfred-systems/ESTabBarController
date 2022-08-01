@@ -45,7 +45,7 @@ open class ESTabBarController: UITabBarController, ESTabBarDelegate {
     }
 
     /// Ignore next selection or not.
-    fileprivate var ignoreNextSelection = false
+    open var ignoreNextSelection = false
 
     /// Should hijack select action or not.
     open var shouldHijackHandler: ESTabBarControllerShouldHijackHandler?
